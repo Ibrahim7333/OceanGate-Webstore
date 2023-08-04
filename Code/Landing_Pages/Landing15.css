@@ -1,0 +1,56 @@
+.img1  /* MAIN IMAGE */
+{
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 4vw;
+    width: 43vw;
+}
+
+.name /* NAME  */
+{
+    font-size: 3vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+
+.price  /* PRICE */
+{
+    
+}
+
+.download /* DETAILS BUTTON */
+{
+    margin-top: 43vw;
+    margin-left: 20vw;
+}
+
+@media screen and (max-width: 768px) 
+ {
+     body .cont1 .img1
+     {
+         width:82vw;
+        margin-left: 6vw;
+         margin-top: 10vw;
+     } 
+     
+       body .cont2 .name
+     {
+          font-size: 5.5vw;
+    margin-top: 0vw;
+    margin-left: 20vw;
+     }
+     
+     body .cont2 .price
+     {
+          margin-top: 11vw;
+    font-size: 4vw;
+    margin-left: 21vw;
+     }
+     
+     body .download
+     {
+         
+     }
+     
+
+}
