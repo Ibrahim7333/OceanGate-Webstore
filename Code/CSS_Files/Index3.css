@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body 
+{
+    background: black;
+}
+
+.story_col1
+{
+    height: 47vw;
+    margin-bottom: 3vw;
+}
+
+.story_col2
+{
+    height: 47vw;
+    margin-bottom: 3vw;
+}
+
+.story_pic
+{
+    position: absolute;
+    width: 50vw;
+   left:0;
+}
+
+.story_cap1
+{
+    position: absolute;
+   font-family: "Jost";
+   color: black;
+   margin-top: 4vw;
+   margin-left: 13vw;
+   font-size: 5vw;
+}
+
+.story_cap2
+{
+    position: absolute;
+   font-family: "Josefin Sans";
+   color: darkslategrey;
+   margin-top: 15vw;
+   width: 42vw;
+   font-size: 2.3vw;
+   text-align: center;
+   line-height: 4vw;
+   margin-left: 3vw;
+}
+
+@media screen and (max-width: 992px) {
+
+    body .story_col1
+    {
+        height: 94vw;
+    }
+
+    body .story_col2
+    {
+        margin-top: -10vw;
+        height: 94vw;
+    }
+
+    body .story_pic
+{
+    width: 100vw;
+    margin-left: 0vw;
+    left:0;
+}
+
+body .story_cap1
+{
+    margin-top: 14vw;
+    margin-left: 33vw;
+    font-size: 8vw;
+}
+
+body .story_cap2
+{
+    margin-top: 32vw;
+   width: 80vw;
+   font-size: 4.3vw;
+   line-height: 7vw;
+   margin-left: 6vw;
+}
+
+
+}

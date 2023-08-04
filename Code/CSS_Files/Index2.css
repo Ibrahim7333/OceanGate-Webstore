@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.car_control1 {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23111' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.car_control2 {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23111' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+  
+    background-color: #111;
+}
+.carousel-indicators .active {
+    background-color: #1aa;
+}
+
+.p0a
+{
+    position: absolute;
+            color: white;
+            top: 11vw;
+            left:35vw;
+            font-size: 7vw;
+        font-family: "Josefin Sans";
+}
+
+.p0b
+{
+    position: absolute;
+            color: white;
+            top: 22vw;
+            left:60vw;
+          width: 30vw;
+            font-size: 2vw;
+            font-family: "Jost";
+}
+
+
+.link_zero
+{
+          position: absolute;
+            margin-top: 32vw;
+            margin-left: 75vw;
+            background: transparent;
+            border: 2px solid white;
+            border-radius: 0px;
+            color: white;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 0.6vw;
+            padding-bottom: 0.6vw;
+            font-family: "Jost";
+            font-size: 1.25vw;
+
+}
+
+.link_zero:hover
+{
+           background: white;
+            color: black;
+            border: 2px solid white; 
+}
+
+.column1
+{
+  background: white; 
+    height: 35vw;
+    margin-top: 11vw;
+}
+
+.column2
+{
+  background: white;
+    height: 35vw;
+    margin-top: 11vw;
+}
+
+.column3
+{
+   background: white;
+    height: 35vw;
+    margin-top: 1vw;
+}
+
+.column4
+{
+   background: white;
+    height: 35vw;
+      margin-top: 1vw;
+}
+
+.back_image
+{
+    width: 35vw;
+    z-index: 0;
+}
+
+.back_image:hover
+{
+    opacity: 0.7;
+}
+
+.bki1, .bki3
+{
+    margin-left: 12.5vw;
+}
+
+.bki2, .bki4
+{
+    margin-left: 0vw;
+}
+
+.all_img_links
+{
+    position: absolute;
+    font-family: "Jost";
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 0.4vw;
+    font-size: 1.8vw;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    z-index: 1;
+}
+
+.all_img_links:hover
+{
+    background: black;
+    color: white;
+    border: none;
+}
+
+.all_img_l1
+{
+    margin-left: 26vw;
+    margin-top: 15vw;
+}
+
+.all_img_l2
+{
+    margin-left: 12vw;
+    margin-top: 15vw;
+}
+
+.all_img_l3
+{
+    margin-left: 23vw;
+    margin-top: 15vw;
+}
+
+.all_img_l4
+{
+    margin-left: 12vw;
+    margin-top: 15vw;
+}
+
+
+
+.curve_img
+{
+    
+    width: 100vw;
+}
+
+.curve_para
+{
+    background: darkslategrey;
+    height: 10vw;
+    margin-top: 0vw;
+}
+
+.curve_para svg
+{
+    margin-top: -20vw;
+  width: 100vw;
+    left: 0;
+}
+
+.curve_text
+{
+    position: absolute;
+    color: white;
+    font-family: "Jost";
+    margin-top: -20vw;
+}
+
+.curve_title
+{
+    position: absolute;
+    color: white;
+    font-family: "Jost";
+    margin-top: -25vw;
+    font-size: 5vw;
+}
+
+.brands_bar
+{
+    
+    height: 25vw;
+}
+
+.brand0, .brand1, .brand2, .brand3
+{
+    position: absolute;
+    width: 13vw;
+    margin-top: 6vw;
+}
+
+.brand0:hover, .brand1:hover, .brand2:hover, .brand3:hover
+{
+    opacity: 0.6;
+}
+
+.brands_title
+{
+    text-align: center;
+    font-family: "Jost";
+    font-size: 3.5vw;
+    margin-top: 3vw;
+}
+
+
+.brand0
+{
+    margin-left: 10vw;
+}
+
+.brand1
+{
+    margin-left: 33vw;
+    margin-top: 5.3vw;
+}
+
+.brand2
+{
+    margin-left: 55vw;
+}
+
+.brand3
+{
+    margin-left: 78vw;
+    margin-top: 4.5vw;
+}
+
+.line_1a
+{
+    opacity: 0.2;
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 5.5vw;
+}
+
+.line_1b
+{
+    opacity: 0.2;
+    position: absolute;
+    margin-left: 49vw;
+    margin-top: 5.5vw;
+}
+
+.line_1c
+{
+    opacity: 0.2;
+    position: absolute;
+    margin-left: 72.5vw;
+    margin-top: 5.5vw;
+}
+.car_slide
+{
+    height: 45vw;
+    border: 0px solid black;
+    width: 40vw;
+}
+
+.card_car
+{
+    width: 25vw;
+    margin-bottom:5vw;
+    margin-top:0vw;
+    margin-left: 8vw;
+    height: 40vw;
+}
+
+.car_col1
+{
+    margin-top: -10vw;
+    height: 50vw;
+    background: white;
+}
+
+.car_col2
+{
+     margin-top: -10vw;
+    height: 50vw;
+    background: white;
+}
+
+@media screen and (max-width: 800px) {
+    
+   body .brands_bar
+    {
+       height: 65vw; 
+    }
+    
+    body .brands_title
+    {
+        font-size: 5vw;
+        margin-top: 8vw;
+    }
+    
+    body .brand0 { 
+        width: 22vw; 
+        margin-left: 40vw;
+    }
+    body .brand1 
+    { width: 22vw;
+        margin-left: 40vw;
+        margin-top: 14vw;
+    }
+    body .brand2 
+    { 
+        width: 22vw;
+         margin-left: 40vw;
+        margin-top: 25vw;
+    }
+    body .brand3 
+    { 
+        width: 22vw;
+          margin-left: 40vw;
+        margin-top: 36vw;
+    }
+    
+}
+
+
+@media screen and (max-width: 992px) {
+    
+    body .all_columns
+    {
+        height: 70vw;
+       
+    }
+    
+    body .line_1a { display: none; }
+    body .line_1b { display: none; }
+    body .line_1c { display: none; }
+    
+    body .back_image
+    {
+        width: 50vw;
+         margin-left: 22vw;
+        margin-top: 10vw;
+    }
+
+    
+    body .column2
+    {
+        margin-top: -10vw;
+    }
+    
+     body .column3
+    {
+        margin-top: -10vw;
+    }
+    
+    
+     body .column4
+    {
+        margin-top: -10vw;
+    }
+    
+     
+    
+    body .all_img_links
+    {
+        font-size: 3vw;
+        margin-top: 30vw;
+    }
+    
+    body .cover_carousel
+    {
+        margin-top: 12vw;
+    }
+    
+    body .all_img_l1
+    { margin-left: 40vw; }
+    
+     body .all_img_l2
+    { margin-left: 38vw; }
+    
+     body .all_img_l3
+    { margin-left: 35vw; }
+    
+     body .all_img_l4
+    { margin-left: 40vw; }
+    
+}
+
+
+
+
+
+

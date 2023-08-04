@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body
+{
+    background: white; 
+}
+
+.a:hover
+{
+    
+    box-shadow: 0px 4px 4px #aaaaaa;
+}
+
+.cover_img
+{
+    width: 100vw;
+    margin-top: -2vw;
+    z-index: 0;
+}
+
+.temp_back1
+{
+    position:absolute;
+    background: rgb(226, 224, 224);
+    height: 38vw;
+    width: 25vw;
+    margin-top: 1vw;
+    margin-left: 19vw;
+    border:0.4vw dotted rgb(127, 128, 128);
+}
+
+.temp_back2
+{
+    position:absolute;
+    background: rgb(226, 224, 224);
+    height: 38vw;
+    width: 25vw;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    border:0.4vw dotted rgb(127, 128, 128);
+    
+}
+
+.temp_text1, .temp_text2
+{
+    position: absolute;
+  font-family: "Jost";
+  font-size: 2.2vw;
+  color: rgb(129, 129, 129);
+  margin-top: 16vw;
+  margin-left: 7.5vw;
+}
+
+.cont1
+{  margin-bottom: 5vw;
+    margin-top: 27vw;
+    height:45vw;
+    background: transparent;  }
+
+.cont2
+{  margin-bottom: 5vw;
+    margin-top: 27vw;
+    height: 45vw;
+    background: transparent;  }
+
+.comp1
+{  position: absolute;
+    width: 25vw;
+    margin-left: 19vw;
+    margin-top: 1vw; }
+
+.comp2
+{  position: absolute;
+    color: black;
+    font-family: "Jost";
+    margin-top: 28vw;
+    margin-left: 21vw;
+    font-size: 1.8vw;  }
+
+.comp3
+{  position: absolute;
+    color: black;
+    font-family: "Jost";
+    margin-top: 32vw;
+    margin-left: 21vw;
+    font-size: 1.8vw;  }
+
+.comp4
+{  position: absolute;
+    color: black;
+    font-family: "Jost";
+    margin-top: 36vw;
+    margin-left: 21vw;
+    font-size: 1.8vw;  }
+
+.comp1a
+{  position: absolute;
+    width: 25vw;
+    margin-left: 3vw;
+    margin-top: 1vw; }
+
+.comp2a
+{  position: absolute;
+    color: black;
+    font-family: "Jost";
+    margin-top: 28vw;
+    margin-left: 5vw;
+    font-size: 1.8vw;  }
+
+.comp3a
+{  position: absolute;
+    color: black;
+    font-family: "Jost";
+    margin-top: 32vw;
+    margin-left: 5vw;
+    font-size: 1.8vw;  }
+
+.comp4a
+{  position: absolute;
+    color: black;
+    font-family: "Jost";
+    margin-top: 36vw;
+    margin-left: 5vw;
+    font-size: 1.8vw;  }
+
+.heading_1
+{
+    position: absolute;
+    color: black;
+    font-family: "Jost";
+    margin-left: 32vw;
+    margin-top: 4vw;
+    font-size: 4.6vw;
+
+}
+
+#inner
+{
+    background: black;
+    color: white;
+}
+
+.dd1
+{
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 23vw;
+}
+
+.dd2
+{
+    position: absolute;
+    margin-top: 20vw;
+    margin-left: 56.5vw;
+}
+
+.dd1a
+{
+    background: darkslategrey;
+    font-family: "Jost";
+    text-align: center;
+    border-radius: 0;
+    width: 20vw;
+    height: 3.5vw;
+    font-size: 1.25vw;
+}
+
+.dd1a:hover
+{
+    background: black;
+}
+
+.dd2a
+{
+    background: darkslategrey;
+    font-family: "Jost";
+    text-align: center;
+    border-radius: 0;
+    width: 20vw;
+    height: 3.5vw;
+    font-size: 1.25vw;
+}
+
+.dd1a:hover
+{
+    background: black;
+}
+
+.navbar-custom .navbar-text,  .navbar-custom .navbar-nav .nav-link
+        { color: black; }
+
+.m1, .m2
+{
+    height: 16vw;
+    overflow-y: scroll;
+    font-size: 1.25vw;
+}
+
+#select1 ,#select2
+{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 990px) {
+    
+   body .cover_img
+   {
+       margin-top: 5vw;
+   }
+
+    body .heading1
+    {
+        margin-top: 15vw;
+    }
+    
+    body .dd1
+    {
+        margin-top: 27vw;
+    }
+    
+    body .dd2
+    {
+      margin-top: 27vw;  
+    }
+    
+    
+    body .cont1
+    {
+        margin-top: 35vw;
+    }
+    
+    body .cont2
+    {
+        margin-top: 35vw;
+    }
+    
+    body .m1
+    {
+        height: 20vw;
+    }
+    
+    body .m2
+    {
+        height: 20vw;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    body .cover_img
+   {
+       margin-top: 5vw;
+   }
+
+   body .heading_1
+   {
+       font-size: 6vw;
+       margin-left: 25vw;
+       margin-top: 15vw;
+   }
+    
+    body .cont1
+    {
+        margin-top: 70vw;
+        height: 100vw; }
+    
+     body .cont2
+    {  height: 100vw;  
+      margin-top: -10vw;  }
+    
+    body .comp1
+    {
+        width: 50vw;
+        margin-left: 22vw;
+    }
+    
+    body .comp2
+    {
+        font-size: 4vw;
+        margin-top: 54vw;
+        margin-left: 24vw;
+    }
+    
+     body .comp3
+    {
+        font-size: 4vw;
+        margin-top: 63vw;
+        margin-left: 24vw;
+    }
+    
+     body .comp4
+    {
+        font-size: 4vw;
+        margin-top: 72vw;
+        margin-left: 24vw;
+    }
+    
+     body .comp1a
+    {
+        width: 50vw;
+        margin-left: 22vw;
+    }
+    
+    body .comp2a
+    {
+        font-size: 4vw;
+        margin-top: 54vw;
+        margin-left: 24vw;
+    }
+    
+     body .comp3a
+    {
+        font-size: 4vw;
+        margin-top: 63vw;
+        margin-left: 24vw;
+    }
+    
+     body .comp4a
+    {
+        font-size: 4vw;
+        margin-top: 72vw;
+        margin-left: 24vw;
+    }
+    
+    body .heading1
+    {
+        margin-top: 20vw;
+        font-size: 8vw;
+        margin-left: 20vw;
+    }
+    
+    body .dd1
+    {
+        margin-left: 27vw;
+        margin-top: 45vw;
+    }
+    
+    body .dd2
+    {
+        margin-left: 27vw;
+        margin-top: 57vw;
+    }
+    
+    body .dd1a
+    {
+    width: 45vw;
+    height: 8vw;
+    font-size: 3vw; 
+    }
+    
+    body .dd2a
+    {
+    width: 45vw;
+    height: 8vw;
+    font-size: 3vw;
+    }
+    
+    body .m1
+    {
+        height: 30vw;
+        font-size: 3vw;
+    }
+    
+    body .m2
+    {
+        height: 30vw;
+        font-size: 3vw;
+    }
+
+    body .temp_back1
+{
+    height: 80vw;
+    width: 52vw;
+    margin-top: 1vw;
+    margin-left: 21vw;
+}
+
+body .temp_back2
+{
+    height: 80vw;
+    width: 52vw;
+    margin-top: 1vw;
+    margin-left: 21vw;
+}
+
+body .temp_text1, body .temp_text2
+{
+  font-size: 5.5vw;
+  margin-top: 33vw;
+  margin-left: 15vw;
+}
+    
+}
+
+
+
+
+
+
+
+
+

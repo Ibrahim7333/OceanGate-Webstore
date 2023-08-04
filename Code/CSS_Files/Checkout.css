@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body
+{
+    background: black;
+    background-image: url(../Checkout_Images/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a
+{
+    box-shadow: none;
+}
+
+        @media screen and (min-width: 990px) 
+        {
+            body .form01
+            {
+                margin-left:40vw;
+                margin-right: 1vw;
+                margin-top: -0.2vw;
+            }
+
+            body .user-icon
+            { margin-left: 39vw; }
+
+            body .a:hover .form01
+            {
+                margin-left:40vw;
+                margin-right: 1vw;
+                margin-top: -0.2vw;
+            }
+
+            body .a:hover .user-icon
+            { margin-left: 38vw; }
+
+            body .solid .form01
+            {
+                margin-left:40vw;
+                margin-right: 1vw;
+                margin-top: -0.2vw;
+            }
+
+            body .solid .user-icon
+            { margin-left: 38vw; }
+
+
+        }
+
+        @media screen and (max-width: 990px) 
+        {
+
+            body .sdiv
+            {
+                display: block;
+            }
+
+            body .m
+            {
+                height: 40vw;
+                width: 35vw;
+            }
+
+            body .cont1
+            {
+                margin-top: 32vw;
+            }
+            
+            body .cont2
+            {
+                margin-top: 32vw;
+            }
+
+            body .pbar
+            {
+                margin-top: 29vw;
+            }
+
+            body .title5
+            {
+                margin-top: 17vw;
+            }
+
+          body .prev1, body .prev2
+          {
+              width: 8vw;
+          }
+
+          body .shead
+          {
+              padding-top: 1.5vw;
+          }
+
+
+        }
+
+@media screen and (max-width: 768px) 
+ {
+
+     body .cont1
+     {
+         height: 90vw;
+         margin-top: 50vw;
+     }
+     
+     body .cont2
+     {
+         height: 90vw;
+         margin-top: -10vw;
+     }
+
+     body .m
+     {
+         height: 80vw;
+         width: 70vw;
+         margin-right:15.5vw;
+         margin-top: 9vw;
+         border-top-right-radius: 3vw;
+         border-top-left-radius: 3vw;
+         border-bottom-right-radius: 0vw;
+         border-bottom-left-radius: 0vw;
+     }
+
+     body .main-card
+     {
+        height: 80vw;
+        width: 70vw;
+        margin-left:12.5vw;
+        margin-top: 0vw;
+        border-top-right-radius: 0vw;
+        border-top-left-radius: 0vw;
+        border-bottom-right-radius: 3vw;
+        border-bottom-left-radius: 3vw;
+     }
+
+     body .shead
+{
+    font-size: 4.5vw;
+    padding-top: 5vw;
+     padding-bottom: 10vw;
+     margin-bottom: 3vw;
+     
+}
+
+body .sdiv
+{
+    height: 14vw;
+}
+
+body .simg
+{
+    width: 15vw;
+    margin-left: 0.5vw;
+    margin-top: -1vw;
+}
+
+body .pname
+{
+    margin-left: 19vw;
+    font-size: 2.8vw;
+}
+
+body .pprice
+{
+    font-size: 2.9vw;
+    margin-left: 19vw;
+    margin-top: 4.5vw;
+}
+
+body .pquan
+{
+    margin-left: 19vw;
+    margin-top: 9.5vw;
+    font-size: 2.8vw;
+}
+
+body .quan
+{
+    font-size: 2.8vw;
+}
+ 
+body .del 
+{
+    width: 4vw;
+    margin-left: 57vw;
+    margin-top: 5vw;
+}
+
+body .empty
+{
+    font-size: 4vw;
+}
+
+/*
+body .sdivx
+{
+    height: 2vw;
+}
+
+*/
+
+body .panel1_img
+{
+    width: 23vw;
+    margin-left: 22vw;
+    margin-top: 1vw;
+}
+
+body .panel1_form
+{
+    margin-top: 45vw;
+    margin-left: 13vw;
+}
+
+body .panel1_title
+{
+    margin-top: 25vw;
+    font-size:4.5vw;
+    margin-left: 14vw;
+}
+
+body .panel1_para
+{
+    margin-top: 33vw;
+    font-size: 2.6vw;
+    width: 53vw;
+    margin-left: 5vw;
+}
+
+body .txtar
+{
+    width: 40vw;
+}
+
+body .txtar::placeholder {
+    font-size: 2vw;
+  }
+
+body .panel2_img
+{
+    width: 23vw;
+    margin-left: 22.5vw;
+    margin-top: 1vw;
+}
+
+body .panel2_form
+{
+    margin-top: 45vw;
+    margin-left: 13vw;
+}
+
+body .panel2_title
+{
+    margin-top: 25vw;
+    font-size:4.5vw;
+    margin-left: 14vw;
+}
+
+body .panel2_para
+{
+    margin-top: 33vw;
+    font-size: 2.6vw;
+    width: 53vw;
+    margin-left: 6vw;
+}
+
+body .panel2_btn
+{
+    border-bottom:0.1vw solid grey;
+    font-size: 2vw;
+    width: 40vw;
+}
+
+body .panel3_img
+{
+    width: 23vw;
+    margin-left: 22.5vw;
+    margin-top: 2vw;
+}
+
+body .panel3_form
+{
+    margin-top: 42vw;
+    margin-left: 13vw;
+}
+
+body .panel3_title
+{
+    margin-top: 25vw;
+    font-size:4.5vw;
+    margin-left: 26vw;
+}
+
+body .panel3_para
+{
+    margin-top: 33vw;
+    font-size: 3vw;
+    width: 53vw;
+    margin-left: 7vw;
+}
+
+body .real_total, body .real_total2
+{
+    font-size: 3vw;
+}
+
+body .c_cards
+{
+    width: 37vw;
+    margin-top: 57vw;
+    margin-left: 14.5vw;
+}
+
+body .buy
+{
+    margin-top: 68.5vw;
+    margin-left: 48vw;
+    border-radius: 0.5vw;
+    font-size: 2.2vw;
+    width: 14vw;
+    height: 5vw;
+    padding-top:0.1vw;
+   padding-bottom:0.1vw;
+}
+
+body .prev1, body .prev2, body .next1, body .next2
+{
+    margin-top: 68.5vw;
+    border-radius: 0.5vw;
+    font-size: 2.2vw;
+    height: 5vw;
+   padding-top:0.1vw;
+   padding-bottom:0.1vw;
+}
+
+body .prev1, body .prev2
+{
+    margin-left: 2vw;
+    width: 15vw;
+}
+
+body .next1, body .next2
+{
+    margin-left: 48vw;
+    width: 14vw;
+}
+
+body .pbar
+{
+    margin-top: 44vw;
+    margin-left: 16.5vw;
+    width: 66vw;
+    height: 5vw;
+    font-size: 2.5vw;
+    border-radius: 1vw;
+}
+
+body .pbar1, body .pbar2, body .pbar3
+{
+    width: 22vw;
+}
+
+body .pbar1, body .pbar2
+{
+    border-right: 2vw solid #014D65;
+}
+
+body .error_1, body .error_2
+{
+    font-size: 2.3vw;
+    margin-top: 69vw;
+    margin-left: 24vw;
+}
+
+     
+     body .title5
+     {
+         margin-top: 21vw;
+         font-size: 8vw;
+         margin-left: 32vw;
+     }
+
+body .txtar
+{ font-size: 2.6vw; }
+body .p1_input1
+{ margin-top: -1vw; }
+body .p1_input2
+{ margin-top: 6.5vw; }
+body .p1_input3
+{ margin-top: 14vw; }
+body .p2_input1
+{ margin-top: -1vw; }
+body .p2_input2
+{ margin-top: 6.5vw; }
+body .select_ship
+{ margin-top: 14vw; }
+body .p3_input1
+{ margin-top: -1vw; }
+body .p3_input2
+{ margin-top: 7.5vw; }
+
+body .error_3
+{
+    font-size: 2vw;
+}
+
+} /* 768PX MEDIA QUERIES END */
+
+.main-card
+{
+     height: 40vw;
+    width: 32vw;
+    margin-top: 4vw;
+    margin-left: -1vw;
+    border:none;
+    border-radius: 1vw;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pbar1, .pbar2
+{
+    border-right: 1vw solid #014D65;
+}
+
+.pbar1
+{
+    background: rgb(0, 156, 156);
+}
+
+.pbar2, .pbar3
+{
+    background: rgb(194, 193, 193);
+}
+
+.error_1, .error_2
+{
+    color: red;
+    font-family: "Jost";
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: 34vw;
+    margin-left: 10vw;
+}
+
+.error_3
+{
+    color: red;
+    font-family: "Jost";
+    font-size: 1.3vw;
+    position: absolute;
+}
+
+
+.panel1_img
+{
+    position: absolute;
+    width: 11vw;
+    margin-left: 9vw;
+}
+
+.panel1_form
+{
+    position: absolute;
+    margin-top: 20.5vw;
+    margin-left: 4.5vw;
+    font-family: "Jost";
+}
+
+.panel1_title
+{
+    margin-top: 12vw;
+    position: absolute;
+    font-family: "Jost";
+    font-size:2.2vw;
+    margin-left: 5.5vw;
+}
+
+.panel1_para
+{
+    margin-top: 15.5vw;
+    position: absolute;
+    font-family: "Jost";
+    font-size: 1.3vw;
+    width: 25vw;
+    text-align: center;
+    margin-left: 2vw;
+    color:rgb(104, 105, 104);
+}
+
+.p1_input1, .p1_input2, .p1_input3, .p2_input1, .p2_input2, .p3_input1, .p3_input2
+{
+position: absolute;
+}
+
+.txtar
+{ font-size: 1.2vw; }
+.p1_input1
+{ margin-top: 0vw; }
+.p1_input2
+{ margin-top: 4vw; }
+.p1_input3
+{ margin-top: 8vw; }
+.p2_input1
+{ margin-top: 0vw; }
+.p2_input2
+{ margin-top: 4vw; }
+.select_ship
+{ position: absolute;
+    margin-top: 8vw; }
+.p3_input1
+{ margin-top: 0vw; }
+.p3_input2
+{ margin-top: 5vw; }
+
+.panel2_img
+{
+    position: absolute;
+    width: 11vw;
+    margin-left: 9vw;
+}
+
+.panel2_form
+{
+    position: absolute;
+    margin-top: 20.5vw;
+    margin-left: 4.5vw;
+    font-family: "Jost";
+}
+
+.panel2_title
+{
+    margin-top: 12vw;
+    position: absolute;
+    font-family: "Jost";
+    font-size:2.2vw;
+    margin-left: 5.5vw;
+}
+
+.panel2_para
+{
+    margin-top: 15.5vw;
+    position: absolute;
+    font-family: "Jost";
+    font-size: 1.3vw;
+    width: 25vw;
+    text-align: center;
+    margin-left: 2vw;
+    color:rgb(104, 105, 104);
+}
+
+.panel2_btn
+{
+    background: white;
+    border-radius: 0;
+    border:none;
+    border-bottom:0.1vw solid grey;
+    color: black;
+    font-size: 1.2vw;
+    color: grey;
+    width: 20vw;
+    text-align: left;
+}
+
+#btn2-inside
+{
+    text-decoration: none;
+}
+
+.panel2_btn:hover
+{
+    background: white;
+    color: grey;
+}
+
+.panel3_img
+{
+    position: absolute;
+    width: 11vw;
+    margin-left: 9vw;
+    margin-top: -0.5vw;
+}
+
+.panel3_form
+{
+    position: absolute;
+    margin-top: 19.5vw;
+    margin-left: 4.5vw;
+    font-family: "Jost";
+}
+
+.panel3_title
+{
+    margin-top: 10.5vw;
+    position: absolute;
+    font-family: "Jost";
+    font-size:2.4vw;
+    margin-left: 10.2vw;
+}
+
+.panel3_para
+{
+    margin-top: 15vw;
+    position: absolute;
+    font-family: "Jost";
+    font-size: 1.6vw;
+    width: 25vw;
+    text-align: center;
+    margin-left: 2vw;
+    color:rgb(104, 105, 104);
+}
+
+.real_total
+{
+    text-decoration: none;
+    font-family: "Jost";
+    font-size: 1.6vw;
+    color:rgb(104, 105, 104);
+}
+
+.c_cards
+{
+    position: absolute;
+    width: 20vw;
+    margin-top: 28vw;
+    margin-left: 4.5vw;
+}
+
+.buy
+{
+    position: absolute;
+    margin-top: 34vw;
+    margin-left: 22vw;
+    background: lightseagreen;
+    border-radius: 0.5vw;
+    border: none;
+    font-family:"Jost";
+    font-size: 1.3vw;
+    width: 6vw;
+    color: white;
+    height: 2.6vw;
+    padding-top:0.1vw;
+   padding-bottom:0.1vw;
+    text-align: center;
+}
+
+.prev1, .prev2, .next1, .next2
+{
+    position: absolute;
+    margin-top: 34vw;
+    background: darkslategrey;
+    border-radius: 0.5vw;
+    border: none;
+    font-family:"Jost";
+    font-size: 1.3vw;
+    color: white;
+    height: 2.6vw;
+   padding-top:0.1vw;
+   padding-bottom:0.1vw;
+    text-align: center;
+}
+
+.prev1, .prev2
+{
+    margin-left: 1vw;
+    width: 7vw;
+}
+
+.next1, .next2
+{
+    margin-left: 22vw;
+    width: 6vw;
+}
+
+.next1:hover, .next2:hover, .prev1:hover, .prev2:hover
+{
+    background: darkslategrey;
+}
+
+.pbar
+{
+    position: absolute;
+    margin-top: 27vw;
+    margin-left: 18.5vw;
+    width: 63vw;
+    height: 2.2vw;
+    font-family: "Jost";
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+}
+
+.pbar1, .pbar2, .pbar3
+{
+    width: 21vw;
+}
+
+.txtar
+{
+    width: 20vw;
+    border: none;
+    border-bottom: 0.1vw solid grey;
+    border-radius: 0;
+}
+
+.image_one
+{
+    position: absolute;
+    width: 6vw;
+}
+
+
+.cont1
+{
+    margin-bottom: 10vw;
+    margin-top: 28vw;
+    height:45vw;
+}
+
+.cont2
+{
+    margin-bottom: 10vw;
+    margin-top: 28vw;
+    height: 45vw;
+}
+
+.title5
+{
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 40.5vw;
+    font-family: "Jost";
+    font-size: 4vw;
+    color: white;
+}
+
+.m
+{
+    border:none;
+    box-shadow: none;
+    border-radius: 1vw;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 40vw;
+    width: 32vw;
+    margin-left: 8vw;
+    margin-top: 4vw;
+    overflow-y: scroll;
+    position: absolute;
+    background: white;
+}
+
+.shead:hover
+{
+    background: rgb(189, 211, 189);
+    color: black;
+}
+
+.bottom
+{
+    height: 5vw;
+}
+
+.shead
+{
+    font-family: "Jost";
+    font-size: 1.9vw;
+    color: black;
+    text-align: center;
+    background:  rgb(189, 211, 189);
+    padding-top: 2.5vw;
+     padding-bottom: 4.5vw;
+     margin-bottom: 1vw;
+   
+}
+
+.sdivx
+{
+    height: 2vw;
+}
+
+.sdiv
+{
+    height: 7vw;
+    background: white;
+}
+
+.simg
+{
+    position: absolute;
+    width: 7vw;
+    margin-left: 0.5vw;
+    margin-top: -0.4vw;
+}
+
+.del 
+{
+    position: absolute;
+    width: 2.3vw;
+    margin-left: 26vw;
+    margin-top: 2.5vw;
+    cursor: pointer;
+}
+
+.pname, .pprice, .pquan
+{
+    position: absolute;
+}
+
+.pname
+{
+    font-family: "Jost";
+    margin-left: 10vw;
+    font-size: 1.3vw;
+    margin-top: 0vw;
+     color: black;
+}
+
+.pprice
+{
+    font-family: "Overpass";
+    font-size: 1.4vw;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    color: teal;
+}
+
+.pquan
+{
+    font-family: "Jost";
+    margin-left: 10vw;
+    margin-top: 4.5vw;
+    font-size: 1.3vw;
+     color: black;
+}
+
+.empty
+{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+.quan
+{
+    text-decoration: none;
+     color: black;
+}
+
+
+
+.empty
+{
+    font-family: "Jost";
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+.form1
+{
+    position: absolute;
+    border-bottom: 1px solid black;
+}
+
+.chktot
+{
+    text-decoration: none;
+}
+
+.buy:hover
+{
+    background: lightseagreen;
+    color: white;
+}
+
+
+
+
+

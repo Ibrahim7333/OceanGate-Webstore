@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+/* SPECIAL ADDITIONAL STYLING STARTS*/
+body
+{
+    background: white;
+}
+
+.a
+{
+    
+    background: white;
+}
+
+.a:hover
+{
+    box-shadow: 0px 4px 4px #aaaaaa;
+}
+
+ .navbar-custom .navbar-text,  .navbar-custom .navbar-nav .nav-link
+        {
+            color: black;
+        }
+
+    .ac
+        {
+            border-bottom: 0.4vw solid black;
+        }
+
+/* SPECIAL ADDITIONAL STYLING ENDS*/
+
+ .c
+    {
+        height:35vw;
+        color: white;
+        background: transparent;
+    }
+    
+    .z
+    {
+        margin-top: 45vw;
+        margin-bottom: 5vw;
+        padding-right: 5vw;
+        padding-left: 18vw;
+    }
+
+
+.cov1
+{
+    position: absolute;
+    margin-top: -37vw;
+    width: 100%;
+    margin-left: 0vw;
+    z-index: 99;
+}
+
+
+
+.back_arr:hover
+{
+    opacity: 0.6;
+}
+
+#filter_btn1
+{
+    opacity: 0;
+}
+
+.forw_cont
+{
+    position: fixed;
+    margin-top: 0vw;
+    font-size: 1.5vw;
+    width: 9vw;
+    height: 3.5vw;
+    margin-left: 1.5vw;
+    background: black;
+    color: white;
+    font-family: "Jost";
+    text-align: center;
+    border: none;
+}
+
+.forw_cont:hover
+{
+  background: rgb(77, 76, 76);
+  color: white;
+}
+
+.back_arr
+{ 
+    display: none;
+    width: 1.6vw;
+    position: fixed;
+    z-index: 99;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.filter-box
+{
+    display: none;
+    position:fixed;
+    margin-top: -31vw;
+    background: black;
+    height: 30vw;
+    width: 12vw;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    z-index: 99;
+}
+
+.foot
+{
+    z-index: 101;
+}
+    
+.img-cont
+{
+    position: absolute;
+    background: rgb(71, 77, 77);
+    width:22vw;
+    height: 26vw;
+    margin-left: 0.25vw;
+  
+}
+
+#inner
+{
+    color: white;
+    background: black;
+}
+
+@media screen and (max-width: 990px) { 
+       body .a:hover .ac
+        {
+            border-bottom: 0.4vw solid white;
+        }
+    
+    
+    body .ac
+        {
+            border-bottom: 0.4vw solid white;
+        }
+  
+}
+
+@media screen and (min-width: 768px) { 
+
+   body .forw_cont
+   {
+    margin-top: -22vw;
+   }
+
+
+}
+
+    @media screen and (max-width: 768px) { 
+        
+        body .x .z .row .c
+        { height: 60vw; }
+        
+        body .x .z
+        {
+        padding-right: 0vw;
+        padding-left: 21vw;
+        margin-top: 60vw;
+        }
+
+        body .forw_cont
+        {
+            margin-top: 0vw;
+            font-size: 2vw;
+            width: 12vw;
+            height: 6vw;
+        }
+
+        body .cov1
+{
+    margin-top: -47vw;
+
+}
+        
+         body .x .z .row .c .img-cont
+        {
+          height:38vw;
+            width: 32vw;
+        }
+
+        
+        body .x .z .row .c .i1
+        {
+            width:32vw;
+        }
+        
+        body .x .z .row .c .i2
+        {
+            width:32vw;
+        }
+        
+        body .x .z .row .c .cap1
+        {
+            font-size: 2.1vw;
+    margin-top: 40vw;
+    margin-left: 0.5vw;
+        }
+        
+        body .x .z .row .c .cap2
+        {
+            font-size: 2.3vw;
+    margin-top: 45vw;
+    margin-left: 0.5vw;
+        }
+        
+        
+    }  /* 786 PX ENDS */
+      
+     @media screen and (max-width: 576px) { 
+        
+         
+        body .x .z .row .c
+        { height: 94vw;
+            
+         }
+
+         body .forw_cont
+        {
+            margin-top: 0vw;
+            font-size: 2vw;
+            width: 17vw;
+            height: 7.5vw;
+            font-size: 3.5vw;
+            margin-left: 6vw;
+        }
+
+        body .back_arr
+{
+    width: 3.5vw;
+    margin-top: 3.5vw;
+    margin-left: 2vw;
+}
+
+         body .cov1
+         {
+             margin-top: -40vw;
+         }
+         
+          body .x .z
+        {
+        padding-right: 0vw;
+        padding-left: 35vw;
+            margin-top: 55vw;
+        }
+         
+         body .x .z .row .c .img-cont
+        {
+          height:74vw;
+            width: 62vw;
+        }
+         
+         body .x .z .row .c .i1
+        {
+            width:62vw;
+        }
+         
+           body .x .z .row .c .i2
+        {
+            width:62vw;
+        }
+         
+           body .x .z .row .c .cap1
+        {
+            font-size: 3.5vw;
+    margin-top: 77vw;
+    margin-left: 0.5vw;
+        }
+        
+        body .x .z .row .c .cap2
+        {
+            font-size: 3.8vw;
+    margin-top: 83vw;
+    margin-left: 0.5vw;
+        }
+         
+         
+    }  /* 576 PX ENDS */
+
+.i1
+{
+    position: absolute;
+    width:22vw;   
+    opacity: 1;
+    transition: 0.4s;
+     box-shadow: 0px 8px 8px #aaa;
+}
+
+.i2
+{
+    width: 22vw;
+    position: absolute;
+   opacity: 0;
+    transition: 0.4s;
+ box-shadow: 0px 8px 8px #aaa;
+}
+
+.img-cont:hover .i1
+{
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.img-cont:hover .i2
+{
+   opacity: 1;
+   transition: 0.4s;
+}
+
+.cap1
+{
+    position: absolute;
+    color: black;
+    font-family: "Jost";
+    font-size: 1.3vw;
+    margin-top: 27vw;
+    margin-left: 0.5vw;
+}
+
+
+.cap2
+{
+    position: absolute;
+    color: #26a0b6;
+    font-family: "Overpass";
+    font-size: 1.5vw;
+    margin-top: 29.5vw;
+    margin-left: 0.5vw;
+}
+
+.cap1:hover
+{
+   color: #2ab8d1; 
+}
+
+/* SHOPPING CART */
+
+
+.a:hover .item-counter
+{
+    color: black;
+}
+
+@media screen and (max-width: 576px) { 
+
+    body .filter-box
+{
+    margin-top: 0vw;
+    height: 68vw;
+    width: 28vw;
+    border-top-right-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+}
+
+body .filter_title
+{
+font-size: 4vw;
+margin-left: 9vw;
+margin-top: 2.5vw;
+}
+
+body .label_all
+{
+    margin-left: 2.5vw;
+    font-size: 2.9vw;
+}                
+
+body .label1
+{ margin-top: 13vw; }
+body .label2
+{ margin-top: 18vw; }
+body .label3
+    {  margin-top: 23vw; }   
+body .label4
+    {  margin-top: 28vw; }       
+body .label5
+    {  margin-top: 38vw; }
+body .label6
+    {  margin-top: 43vw; }    
+ body .label7
+    {  margin-top: 48vw; }    
+
+  body  .ck_container_all 
+  {
+        width: 3.8vw;
+        height: 3.8vw;
+        margin-left: 18vw;
+  }   
+
+  body .checkmark 
+  {
+    height: 3.7vw;
+    width: 3.8vw;
+    border-radius: 0.7vw;
+  }
+
+  body .ck_container_all .checkmark:after 
+  {
+    margin-left: 1.1vw;
+    margin-top: 0.1vw;
+    width: 1.5vw;
+    height: 3vw;
+    border-width: 0 0.7vw 0.7vw 0;
+  }
+
+body .chk_cont1 
+{ margin-top: 13vw; }
+body .chk_cont2
+{  margin-top: 18vw; }
+body .chk_cont3 
+    { margin-top: 23vw; }    
+body .chk_cont4
+    {  margin-top: 28vw; }    
+body .chk_cont5 
+        { margin-top: 38vw; }      
+body .chk_cont6
+        {  margin-top: 43vw; }               
+body .chk_cont7
+            { margin-top: 48vw; }
+
+body .reset_f
+            {
+                margin-top: 57vw;
+                margin-left: 7vw;
+                font-size: 2.7vw;
+                height: 6.2vw;
+                width: 12vw;
+            }  
+body .separate1
+            {
+                width: 25vw;
+                margin-top: 11vw;
+                margin-left: 1.2vw;
+            }
+            
+body .separate2
+            {
+                width: 25vw;
+                margin-top: 35vw;
+                margin-left: 1.2vw;
+            }
+            
+body .separate3
+            {
+                width: 25vw;
+                margin-top: 55vw;
+                margin-left: 1.2vw;
+            }            
+
+}   /* 546 PX MEDIA QUERIES END */
+
+
+
+.chk_cont1 
+{ margin-top: 5vw; }
+
+.chk_cont2
+{  margin-top: 7.3vw; }
+
+.chk_cont3 
+    { margin-top: 9.6vw; }
+    
+.chk_cont4
+    {  margin-top: 11.9vw; }    
+
+.chk_cont5 
+        { margin-top: 16vw; }
+        
+.chk_cont6
+        {  margin-top: 18.3vw; }       
+            
+ .chk_cont7
+            { margin-top: 20.6vw; }
+        
+.label_all
+{
+    font-family: "Jost";
+    color: white;    /* rgb(112, 223, 186)  */
+    margin-left: 1.2vw;
+    font-size: 1.21vw;
+    font-weight: normal;
+}                
+
+.label1
+{  position: absolute;
+    margin-top: 5vw; }
+
+.label2
+{  position: absolute;
+    margin-top: 7.3vw; }
+
+.label3
+    {  position: absolute;
+        margin-top: 9.6vw; }
+    
+.label4
+    {  position: absolute;
+        margin-top: 11.9vw; }
+        
+.label5
+        {  position: absolute;
+            margin-top: 16vw; }
+        
+.label6
+        {  position: absolute;
+            margin-top: 18.3vw; }    
+
+ .label7
+            {  position: absolute;
+                margin-top: 20.6vw; }    
+                
+  .reset_f
+  {
+      position: absolute;
+      margin-top: 25vw;
+      margin-left: 3.5vw;
+      background: white;
+      color: black;
+      border:none;
+      font-family: "Jost";
+      font-size: 1.25vw;
+      height: 3vw;
+      width: 5vw;
+  }
+  
+  
+  .filter_title
+  {
+      position: absolute;
+      font-family: "Josefin Sans";
+color: white;
+font-size: 1.8vw;
+margin-left: 4vw;
+margin-top: 0.7vw;
+}
+
+.separate1
+{
+    width: 11vw;
+    position: absolute;
+    margin-top: 4vw;
+    margin-left: 0.5vw;
+}
+
+.separate2
+{
+    width: 11vw;
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 0.5vw;
+}
+
+.separate3
+{
+    width: 11vw;
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 0.5vw;
+}
+
+
+
+.ck_container_all {
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: transparent;
+    width: 2vw;
+    height: 2vw;
+    position: absolute;
+    margin-left: 8.5vw;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .ck_container_all input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    margin-left: 0vw;
+    height: 1.9vw;
+    width: 2vw;
+    background-color: rgb(75, 73, 73);
+    border-radius: 0.3vw;
+  }
+
+  
+  /* When the checkbox is checked, add a blue background */
+  .ck_container_all input:checked ~ .checkmark {
+    background-color: white;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .ck_container_all input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .ck_container_all .checkmark:after {
+    margin-left: 0.65vw;
+    margin-top: 0.1vw;
+    width: 0.7vw;
+    height: 1.4vw;
+    border: solid black;
+    border-width: 0 0.3vw 0.3vw 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+

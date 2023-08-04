@@ -1,0 +1,2423 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+
+
+body
+        {
+            background: white;
+       
+        }
+ 
+        ::-webkit-scrollbar {
+            display: none;
+            }
+    
+        
+   .empty
+{
+    text-align: center;
+}
+
+#empty-inside
+{
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: -5vw;
+}
+
+.empty_img
+{
+    position: absolute;
+    width: 3.2vw;
+    margin-top: 3vw;
+    margin-left: -1.5vw;
+}
+
+.signin_img
+{
+    position: absolute;
+    width: 2.5vw;
+    margin-top: 3vw;
+    margin-left: -1vw;
+}
+
+
+        @media screen and (max-width: 990px) {
+           
+     body .empty_img, .signin_img
+     {
+        opacity: 0;
+     }
+
+     body #empty-inside
+     {
+         font-size: 18px;
+         margin-left: -65px;
+         width: 150px;
+         text-align: center;
+         
+     }
+
+
+    }
+
+
+    .b2
+    {
+        opacity: 0;
+    }    
+        
+.animation
+{
+  
+    width:170px;
+}
+
+.anim-cont
+{
+    text-align: center;
+}
+
+.an
+{ 
+    width: 100%;
+    position: absolute;
+    margin-left: 0vw;
+     margin-top:21vw;
+   opacity: 0;
+}
+
+
+
+@media screen and (max-width: 950px) {
+ 
+    body .an
+    {
+        margin-top:30vw;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+ 
+    body .an
+    {
+        margin-top:40vw;
+    }
+
+}
+
+.nav_pic1
+{
+    position: absolute;
+    width: 16vw;
+    margin-top: -9vw;
+    margin-left:-2vw;
+}
+
+.nav_pic2
+{
+    position: absolute;
+        width: 16vw;
+    margin-top: -9vw;
+    margin-left:-3vw;
+}
+
+.nav_pic3
+{
+    position: absolute;
+        width: 25vw;
+    margin-top: -9vw;
+    margin-left:5vw;
+}
+
+.downcap1
+{
+    margin-left: -41vw;
+    margin-top: 9.5vw;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+.downcap1:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+.downcap2
+{
+    margin-left: -16.5vw;
+    margin-top: 9.5vw;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+.downcap2:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+.downcap3
+{
+    margin-left: 13vw;
+    margin-top: 4vw;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+.downcap3:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+.z5
+{
+
+}
+
+div.dropdown-multicol2{
+  width: 100%;
+}
+div.dropdown-multicol2>div.dropdown-col{
+  display:inline-block;
+  width: 24%;
+  padding-left: 5vw;    
+}
+		
+
+        .a
+        {
+            background-color: transparent;
+            padding-top: 20px;
+            padding-bottom:20px;
+            font-family: "Jost";
+            font-size: 1.5vw;
+            color: black;
+        }
+
+
+.high:hover
+{
+    border-bottom: 0.4vw solid #adadad;
+}
+
+#hova, #hovb
+{
+   
+    text-decoration: none;
+}
+
+#hova:hover, #hovb:hover
+{
+ border-bottom: 0.4vw solid white;
+}
+
+.a:hover .form01
+{
+    margin-left: 39vw;
+}
+
+.high
+{
+    text-decoration: none;
+}
+
+.brand
+{
+    width: 10vw;
+}
+
+
+        
+        .a:hover
+        {
+            background: white;    
+ 
+        }
+
+        @media screen and (max-width: 780px) {
+            body div.dropdown-multicol2>div.dropdown-col
+            {
+                width: 40%;
+            }
+
+            body .pic_column
+            {
+                opacity: 0;
+            }
+           
+
+
+        }
+        
+        @media screen and (max-width: 990px) {
+          
+          
+
+        body .empty
+            {
+                font-size: 17px;
+            }
+            
+        body .downcap1
+            {
+                margin-top: 12vw;
+            }
+            
+        body .downcap2
+            {
+                margin-top: 12vw;
+            }
+            
+        body .downcap3
+            {
+                margin-left: 10vw;
+            }
+            
+        body .shopcart:hover
+            {
+                border-bottom: none;
+            }
+            
+        body .link_hov:hover
+            {
+                border-bottom: darkslategrey;
+            }
+            
+          
+                      
+        body  #hova:hover
+            {
+              border-bottom: 0.5vw solid #adadad;
+            }   
+            
+         body  #hovb:hover
+            {
+              border-bottom: 0.5vw solid #adadad;
+            }       
+                 
+        body .m
+            {
+                height: 120px;
+                overflow-y:scroll;
+                width: 350px;
+            }
+            
+        body .cart_icon
+            {
+                width: 33px;
+                margin-left: -305px;
+                margin-top: 0vw;
+            }
+            
+       
+            
+        body .item-counter2
+            {
+                font-size: 15px;
+                width: 25px;
+                margin-top: 0px;
+                margin-left: 30px;
+            }
+
+            body .tot
+            {
+                margin-top: 2px;
+               margin-left: 180px;
+            }
+
+            
+        body .shead
+            {
+                font-size: 18px;
+                margin-top: -8px;
+            }
+            
+        body .chk
+            {
+                font-size: 18px;
+                height: 37px;
+                margin-left: 45px;
+                width: 200px;
+            }
+            
+        body .bottom
+            {
+                height: 40px;
+            }
+            
+            body .y_all
+            {
+               display: none;
+            }
+            
+            body .form01
+            {
+                margin-left: 1.5vw;
+            }
+            
+             body .a:hover .form01
+            {
+                margin-left: 1.5vw;
+            }
+            
+            body .solid .form01
+            {
+                margin-left: 1.5vw;
+            }
+            
+            body .fl0
+            {
+                width: 40px;
+            }
+            
+             body .fl1
+            {
+                width: 40px;
+            }
+            
+             body .fl2
+            {
+                width: 40px;
+            }
+            
+             body .fl3
+            {
+                width: 40px;
+            }
+
+            body .real_total
+            {
+                font-size: 20px;
+            }
+       
+            
+        body .a
+            {
+                font-size: 25px;
+               background: white;
+                color: black;
+                box-shadow: 0px 4px 4px #aaaaaa;
+            }
+            
+            body .high
+            {
+                font-size: 20px;
+            }
+        
+            body .a:hover
+            {
+               background:  white;
+            }
+            
+            body .solid
+            {
+                
+            }
+            
+            body .navbar-custom .navbar-nav .nav-link
+            {
+                color: black;
+            }
+            
+            body .sc
+            {
+                margin-top: 1vw;
+                margin-left: 1vw;
+            }
+            
+            body .item-counter
+            {
+                font-size: 25px;
+                margin-left: 50px;
+                margin-top: -30px;
+            }
+            
+            
+            body .user-icon
+            {
+                display: none;
+            }
+                
+        body .scart
+            {
+                width: 40px;
+                display: none;
+            }
+            
+        body .scart1
+            {
+                width: 40px;
+                display: block;
+            }    
+            
+        body nav .x0 .x1 .x2 .ad
+            {
+                border: none;
+            }
+            
+       body .a:hover .lg1 .lga
+            {
+                display: none;
+            } 
+            
+      body .lg
+            {
+                display: none;
+              
+            }      
+            
+        body .lgb
+            {
+                display: inline;
+                margin-left: 0vw;
+            }
+            
+      body .a:hover .lgb
+            {
+                margin-left: -2.5vw;
+            }
+            
+            /**/
+        body .solid .lga
+            {
+                display: none;
+            }   
+
+          body .lgb:hover
+          {
+              cursor: pointer;
+          }  
+            
+         body .solid .lgb
+            {
+                margin-left: -2.5vw;
+                display: inline;
+            }       
+
+           
+             
+        }
+
+.lgb
+{
+    display: none;
+    width:25vw;
+}
+ 
+.lgb:hover
+{
+    opacity: 0.5;
+}
+
+        .navbar-custom .navbar-text,  .navbar-custom .navbar-nav .nav-link
+        {
+            color: white;
+        }
+        
+        .a:hover .e
+        {
+            color: black;          
+        }
+        
+        .a:hover .f
+        {
+            color: black;
+          
+        }
+        
+          .g
+        {
+            border:none;
+            transition: 0s;
+        }
+        
+          .a:hover .h
+        {
+            border:none;
+            transition: 0s;
+        }
+        
+           .ac
+        {
+            border-bottom: 0.4vw solid white;
+        }
+
+.solid .ac
+{
+    border-bottom: 0.4vw solid black;
+}
+        
+        .a:hover .ac
+        {
+            border-bottom: 0.4vw solid black;
+        }
+        
+         .a:hover .dropdown-item
+        {
+            background:#f2f2f2;
+            color: black;
+        }
+        
+        .navbar-custom .navbar-brand
+        {
+            color: white;
+        }
+        
+        
+        .link_hov:hover
+        {
+            transition: 0s;
+            border-bottom: 0.4vw solid #adadad;
+        }
+        
+       
+
+.icon-bar {
+	width: 22px;  
+	height: 3px;
+	background-color: black;
+	display: block;
+	margin-top:4px;
+    transition: 0s;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+     transition: 0s;
+}
+
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 120%;
+    transition: 0s;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+     transition: 0s;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% -10%;
+     transition: 0s;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+     transition: 0s;
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+     transition: 0s;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+     transition: 0s;
+}
+
+     .b
+        { padding-top:0px; }
+        
+        .solid
+        {
+            background-color: white;
+           padding-top: 20px;
+            padding-bottom:20px;
+            font-family: "Jost";
+            font-size: 1.5vw;
+              box-shadow: 0px 4px 4px #aaaaaa;
+        }
+        
+         .solid .navbar-text,  .solid .navbar-nav .nav-link
+        {
+            color: black;
+           
+        }
+        
+        .solid .navbar-brand
+        {
+            color: black;
+          
+        }
+        
+        .solid .nav-item.active .nav-link, .solid .nav-item:hover .nav-link
+        {
+           color: black;
+           
+        }
+        
+        .t
+        {
+            background: white;
+            height: 2000px;
+        }
+        
+        .mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+     padding: 90px 0px 120px 0px;
+    width: 100%;
+    margin-top: -1.9%;
+    background: #f2f2f2;
+    box-shadow: 0px 4px 4px #aaaaaa;
+    font-size: 1.4vw;
+}
+       .solid .mega-dropdown-menu {
+    padding: 90px 0px 120px 0px;
+    width: 100%;
+    margin-top: -1.9%;
+    background:#f2f2f2;
+   
+    border:none;
+           font-size: 1.4vw;
+           box-shadow: 0px 4px 4px #aaaaaa;
+}
+    
+    .ch
+{
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+}
+
+ .s:hover .dropdown-menu
+        {
+            display: block;
+        
+        }
+
+
+
+
+.r:hover .dropdown-menu
+        {
+            display: block;
+  
+            border: none;
+        }
+        
+    .shopcart:hover
+{
+    border-bottom: 0.4vw solid black;
+}
+        
+         .solid .dropdown-item
+        {
+            color: black;
+        }
+        
+        .dropdown-item
+        {
+            background:transparent;
+        }
+        
+    .link4  /* IMG 4 */
+        {
+            position: absolute;
+            margin-top: 40vw;
+            margin-left: 12vw;
+            background: transparent;
+            border: 1px solid white;
+            border-radius: 0px;
+            color: white;
+            padding-left: 1.3vw;
+            padding-right: 1.3vw;
+            padding-top: 0.6vw;
+            padding-bottom: 0.6vw;
+            font-family: "Sen";
+            font-size: 1.25vw;
+            
+        }
+        
+        .link4:hover
+        {
+            background: white;
+            color: black;
+            border: 1px solid white;      
+        }
+        
+        .z
+        {
+            margin-left: -6vw;
+        }
+        
+          .z1
+        {
+            margin-right:-5vw;
+        }
+        
+        .p8
+        {
+            position: absolute;
+            color: white;
+            top: 17vw;
+            left:3vw;
+            font-size: 4vw;
+            font-family: "Lato";
+        }
+        
+        .p9
+        {
+            position: absolute;
+            color: white;
+            top: 23.5vw;
+            left:5vw;
+            font-size: 2.3vw;
+            font-family: "Lato";
+            line-height: 3vw;
+            width: 35vw;
+        }
+
+.az
+{
+    position: absolute;
+    height:2.5vw;
+    width:25vw;
+    color: white;
+     margin-top: 30vw;
+    border-radius: 0.6vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-family: "Sen";
+    text-align: center;
+    padding-top: 0.3vw;
+    margin-left: 5vw;
+    font-size: 1.7vw;
+}
+
+
+
+ .link1    /* IMG 1 */
+        {
+            position: absolute;
+            margin-top: 44vw;
+            margin-left: 73vw;
+            background: transparent;
+            border: 2px solid black;
+            border-radius: 0px;
+            color: black;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 0.6vw;
+            padding-bottom: 0.6vw;
+            font-family: "Sen";
+            font-size: 1.25vw;
+            
+        }
+        
+        .link1:hover
+        {
+            background: black;
+            color: white;
+            border: 2px solid black;      
+        }
+
+ .p1
+        {
+            position: absolute;
+            color: black;
+            top: 17vw;
+            left:71.5vw;
+            font-size: 3.8vw;
+            font-family: "Sen";
+        }
+        
+        .p2
+        {
+            position: absolute;
+            color: black;
+            top: 23vw;
+            left:74vw;
+            font-size: 2.3vw;
+            font-family: "Sen";
+            line-height: 3.5vw;
+            width: 35vw;
+        }
+
+.link2    /* IMG 2 */
+        {
+            position: absolute;
+            margin-top: 42vw;
+            margin-left: 39vw;
+            background: transparent;
+            border: 2px solid black;
+            border-radius: 0px;
+            color: black;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 0.6vw;
+            padding-bottom: 0.6vw;
+            font-family: "Sen";
+            font-size: 1.25vw;
+            
+        }
+        
+        .link2:hover
+        {
+            background: black;
+            color: white;
+            border: 2px solid black;      
+        }
+
+ .p3
+        {
+            position: absolute;
+            color: black;
+            top: 13.7vw;
+            left:37vw;
+            font-size: 4.6vw;
+            font-family: "Sen";
+        }
+        
+        .p4
+        {
+            position: absolute;
+            color: black;
+            top: 21vw;
+            left:28vw;
+            font-size: 2.8vw;
+            font-family: "Sen";
+            line-height: 3.5vw;
+            width: 35vw;
+        }
+
+ .p4a
+        {
+            position: absolute;
+            color: black;
+            top: 28vw;
+            left:29vw;
+            font-size: 2vw;
+            font-family: "Sen";
+            line-height: 3.5vw; 
+            width: 35vw;
+        }
+
+ .p4b
+        {
+            position: absolute;
+            color: black;
+            top: 31vw;
+            left:29vw;
+            font-size: 2vw;
+            font-family: "Sen";
+            line-height: 3.5vw;
+            width: 45vw;
+        }
+
+.link3  /* IMG 3 */
+        {
+            position: absolute;
+            margin-top: 43vw;
+            margin-left: 73vw;
+            background: transparent;
+            border: 0.1vw solid white;
+            border-radius: 0px;
+            color: white;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 0.6vw;
+            padding-bottom: 0.6vw;
+            font-family: "Sen";
+            font-size: 1.25vw;
+            
+        }
+        
+        .link3:hover
+        {
+            background: white;
+            color: black;
+            border: 0.1vw solid white;      
+        }
+
+      .p5
+        {
+            position: absolute;
+            color: white;
+            top: 16vw;
+            left:61vw;
+            font-size: 3.8vw;
+            font-family: "Sen";
+            width: 40vw;
+        }
+
+.p6
+        {
+            position: absolute;
+            color: white;
+            top: 30vw;
+            left:65vw;
+            font-size: 1.5vw;
+            font-family: "Sen";
+            width: 35vw;
+            line-height: 3.5vw;
+        }
+        
+        .p7
+        {
+            position: absolute;
+            color: white;
+            top: 30vw;
+            left:82vw;
+            font-size: 1.5vw;
+            font-family: "Sen";
+            line-height: 3.5vw;
+            width: 35vw;
+        }
+.sp
+{
+    font-size: 3.3vw;
+}
+
+.lg
+{
+    width: 11vw;
+}
+
+.lg1
+{
+    padding-right: 4vw;
+    padding-left: 1vw;
+}
+
+.a:hover .lg1
+{
+    padding-right: 5vw;
+    padding-left: 3.5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+.solid .lg1
+{
+     padding-left: 3.5vw;
+    padding-right: 5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+.lga
+{
+    display: none;
+}
+
+.lga
+{
+    width: 6vw;
+}
+
+.a:hover .lga
+{
+    display: inline;
+}
+
+.solid .lg
+{
+    display: none;
+}
+
+.solid .lga
+{
+    display: inline;
+}
+
+
+.a:hover .lg
+{
+    display: none;
+}
+
+.lga:hover
+{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 900px) {   /* 800 PX */
+    
+
+   body .z77
+   {
+       width: 70%;
+   }
+
+    body .foot 
+            { height: 120vw; }
+    
+    body .foot .logo2
+            { width:20vw;
+                margin-left: -8vw;  }
+    
+    body .foot input[type=text]
+    {  margin-top: 88vw;
+       width:30vw;
+        padding-bottom: 1.2vw;
+        padding-top: 1.2vw;
+        margin-left: -24vw; 
+        font-size: 2vw;
+         height: 5.4vw;
+    }
+    
+     body .foot input[type=submit]
+    {  margin-top: 88vw;
+       width:6vw;
+        padding: 1.5vw 1vw 1.5vw 1.5vw;
+        margin-left: 6vw;
+        font-size: 5vw;
+          height: 5.4vw;  }
+    
+    body .foot .form1
+    {   margin-top:-5.6vw;
+          margin-left:76vw; }
+    
+     body .foot .form1 .sr1
+            { border: 0.1vw solid white;
+                 width:15vw;
+               height: 5vw; 
+                font-size: 1.7vw; }
+    
+    body .foot .form1 .s1
+            { font-size: 1.7vw;      
+              line-height: 2vw; }
+    
+    body .foot .form1 .s2
+            { font-size: 1.7vw;    
+                line-height: 2vw; }
+    
+    body .foot .form1 .s3
+            { font-size: 1.7vw;     
+                line-height: 2vw; }
+    
+    body .foot .form1 .sr1 #s4
+    { font-size: 1.5vw; }
+    
+   body .foot .card1
+{  margin-left:38vw;
+    margin-top:6vw;
+    width:4vw;
+    height:4vw; }
+     
+body .foot .card2
+{ margin-left:44vw; 
+    margin-top:6vw;
+    width:4vw;
+    height:4vw; }
+
+body .foot .card3
+{  margin-left:50vw;
+    margin-top:6vw;
+    width:4vw;
+    height:4vw; }
+
+body .foot .card4
+{  margin-left:56vw;
+    margin-top:6vw;
+    width:4vw;
+    height:4vw; }
+
+body .foot .card5
+{  margin-left:62vw;
+    margin-top:6vw;
+    width:4vw;
+    height:4vw; }
+    
+    body .foot .card1 .fb
+{ width:4vw; }
+    body .foot .card1 .fb1
+{ width:4vw; } 
+    
+   body .foot .card2 .yt
+{ width:4vw; }
+    body .foot .card2 .yt1
+{ width:4vw; } 
+    
+   body .foot .card3 .ig
+{ width:4vw; }
+    body .foot .card3 .ig1
+{ width:4vw; } 
+    
+   body .foot .card4 .pin
+{ width:4vw; }
+    body .foot .card4 .pin1
+{ width:4vw; } 
+    
+   body .foot .card5 .tw
+{ width:4vw; }
+    body .foot .card5 .tw1
+{ width:4vw; }  
+    
+    body .foot .copyr
+{
+    margin-top: 111vw;
+    margin-left: 25vw;
+    font-size: 1.5vw;
+}
+body .foot .copyr1
+{
+    margin-top: 115vw;
+    margin-left: 32vw;
+    font-size: 1.4vw;
+}
+    
+body .foot .sub
+{
+    margin-top: 89vw;
+    margin-left: 6vw;
+  font-size: 1.9vw;
+    width:12vw;
+    line-height: 2.5vw; 
+}
+
+body .foot .sub1
+{
+    margin-top: 90vw;
+    margin-left: 60vw;
+    font-size: 1.9vw;
+    width:15vw;
+    line-height: 2vw; 
+}    
+    
+body .foot .line
+    {
+        margin-top: -10vw;
+        margin-left: -44vw;
+        width: 88vw;
+    }
+    
+   body .foot .col1
+{
+    left:20vw;
+    top:28vw;
+    line-height: 3.5vw;
+    text-align: center;
+}
+    
+    body .foot .foot_title
+    { font-size: 2.3vw;  }
+    
+    body .foot .flink
+    { font-size: 2vw; }
+    
+      body .foot .col2
+{  left:65vw;
+    top:28vw;
+    line-height: 3.5vw;
+     text-align: center; }    
+    
+  body .foot .col3
+{
+    left:20vw;
+    top:55vw;
+    line-height: 3.5vw;
+     text-align: center;
+}    
+
+    body .foot .col4
+{
+    left:65vw;
+    top:55vw;
+    line-height: 3.5vw;
+     text-align: center;
+}    
+    
+    body .foot .popup
+{
+    margin-left: -14.5vw;
+    margin-top: 1.8vw;
+    width: 20vw;
+  }
+  
+    /* CLOSE BUTTON */
+  body .foot .popup .popuptext .close
+{
+    margin-top: -3vw;
+    margin-left: 10.7vw;
+    font-size: 2.8vw;
+    border-radius: 10vw;
+    padding-bottom: 0.12vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+  
+  body .foot .popup .popuptext
+{
+    border-radius: 0.5vw;
+    padding: 0.80vw 3.5vw 0.80vw 1.5vw;
+    font-size: 2vw;
+  }
+  
+  /* POPUP ARROW */
+  body .foot .popup .popuptext::after
+   {
+    margin-top: -3.5vw;
+    margin-left: -5.5vw;
+    border-width: 2vw;
+  }
+    
+    body .foot ::placeholder {
+    font-size: 1.8vw;
+}
+    
+    
+} /* 800 PX MEDIA QUERIES END  */
+
+@media screen and (max-width: 550px) {   /* 550 PX */
+    
+    body .foot 
+            { height: 238.5vw; }
+    
+    body .foot .logo2
+            { width:30vw;
+                margin-left: -12vw;  }
+    
+    body .foot input[type=text]
+    {  margin-top: 160vw;
+       width:44vw;
+        padding-bottom: 2.5vw;
+        padding-top: 2.5vw;
+        margin-left: 25vw;
+        font-size: 3vw;
+        height: 9.4vw;
+    }
+    
+     body .foot input[type=submit]
+    {  margin-top: 160vw;
+       width:9vw;
+        padding: 2.5vw 1vw 3.5vw 2.2vw;
+        margin-left: 69vw;
+        font-size: 7vw;
+          height: 9.4vw;  }
+    
+    body .foot .form1
+    {   margin-top:10vw;
+          margin-left:50vw; }
+    
+     body .foot .form1 .sr1
+            { border: 0.1vw solid white;
+                 width:27vw;
+               height: 9vw; 
+                font-size: 3vw; }
+    
+    body .foot .form1 .s1
+            { font-size: 3vw;      
+              line-height: 4vw; }
+    
+    body .foot .form1 .s2
+            { font-size: 3vw;    
+                line-height: 4vw; }
+    
+    body .foot .form1 .s3
+            { font-size: 3vw;     
+                line-height: 4vw; }
+    
+    body .foot .form1 .sr1 #s4
+    { font-size: 2.7vw; }
+    
+   body .foot .card1
+{  margin-left:28vw;
+    margin-top:32vw;
+    width:7vw;
+    height:7vw;
+    }
+     
+body .foot .card2
+{ margin-left:38vw; 
+    margin-top:32vw;
+    width:7vw;
+    height:7vw; }
+
+body .foot .card3
+{  margin-left:49vw;
+    margin-top:32vw;
+    width:7vw;
+    height:7vw; }
+
+body .foot .card4
+{  margin-left:59vw;
+    margin-top:32vw;
+    width:7vw;
+    height:7vw; }
+
+body .foot .card5
+{  margin-left:69vw;
+    margin-top:32vw;
+    width:7vw;
+    height:7vw; }
+    
+    body .foot .card1 .fb
+{ width:6.5vw; 
+    margin-left:-3vw; }
+    body .foot .card1 .fb1
+{ width:6.5vw;
+    margin-left:-3vw; } 
+    
+   body .foot .card2 .yt
+{ width:6.5vw;
+    margin-left:-3vw; } 
+    body .foot .card2 .yt1
+{ width:6.5vw;
+    margin-left:-3vw; } 
+    
+   body .foot .card3 .ig
+{ width:6.5vw;
+    margin-left:-3vw; } 
+    body .foot .card3 .ig1
+{ width:6.5vw;
+    margin-left:-3vw; } 
+    
+   body .foot .card4 .pin
+{ width:6.5vw;
+    margin-left:-3vw; } 
+    body .foot .card4 .pin1
+{ width:6.5vw;
+    margin-left:-3vw; }  
+    
+   body .foot .card5 .tw
+{ width:6.5vw;
+    margin-left:-3vw; } 
+    body .foot .card5 .tw1
+{ width:6.5vw;
+    margin-left:-3vw; }   
+    
+    body .foot .copyr
+{
+    margin-top: 221vw;
+    margin-left: 10vw;
+    font-size: 2.2vw;
+}
+body .foot .copyr1
+{
+    margin-top: 225vw;
+    margin-left: 22vw;
+    font-size: 2.1vw;
+}
+    
+body .foot .sub
+{
+    margin-top: 160vw;
+    margin-left: 9vw;
+  font-size: 3.2vw;
+    width:25vw;
+    line-height: 4.5vw; 
+}
+
+body .foot .sub1
+{
+    margin-top: 180.5vw;
+    margin-left: 22vw;
+    font-size: 3vw;
+    width:25vw;
+    line-height:4.5vw; 
+}    
+    
+body .foot .line
+    {
+        margin-top: -22vw;
+        margin-left: -41.5vw;
+        width: 85vw;
+        opacity: 0.8;
+
+    }
+    
+   body .foot .col1
+{
+    left:14vw;
+    top:45vw;
+    line-height: 6vw;
+    text-align: center;
+}
+    
+    body .foot .foot_title
+    { font-size: 4.2vw;  }
+    
+    body .foot .flink
+    { font-size: 4vw; }
+    
+      body .foot .col2
+{  left:62vw;
+    top:45vw;
+    line-height: 6vw;
+     text-align: center; }    
+    
+  body .foot .col3
+{
+    left:14vw;
+    top:95vw;
+    line-height: 6vw;
+     text-align: center;
+}    
+
+    body .foot .col4
+{
+    left:62vw;
+    top:95vw;
+    line-height: 6vw;
+     text-align: center;
+}    
+    /* POPUP */
+    
+      body .foot .popup   
+{
+    margin-left: 11vw;
+    margin-top: 2.5vw;
+    width: 20vw;
+  }
+  
+    /* CLOSE BUTTON */
+  body .foot .popup .popuptext .close
+{
+    margin-top: -3.5vw;
+    margin-left: 15.5vw;
+    font-size: 4.2vw;
+    border-radius: 10vw;
+    padding-bottom: 0.12vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+  
+  body .foot .popup .popuptext
+{
+    border-radius: 0.5vw;
+    padding: 2.2vw 5vw 2.2vw 2vw;
+    font-size: 3vw;
+  }
+  
+  /* POPUP ARROW */
+  body .foot .popup .popuptext::after
+   {
+    margin-top: -6.5vw;
+    margin-left: -6vw;
+    border-width: 3vw;
+  }
+    
+    body .foot ::placeholder {
+    font-size: 2.8vw;
+}
+    
+    
+} /*  550 PX MEDIA QUERIES END  */
+
+footer
+{
+    position: static;
+    background-attachment:scroll;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+.foot
+{
+    background:black;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    max-width:100%;
+    bottom: 0;
+    width: 100%;
+    height:42vw;
+    font-family:"Roboto Condensed";
+     line-height: 2.5vw;      
+    border-radius: 0px;
+}
+
+.foot .logo2
+{
+    position: absolute;
+    margin-left: -45vw;
+    margin-top: 6vw;
+    width:15vw;
+}
+
+.foot .col1
+{
+  
+    position: absolute;
+    left:27vw;
+    top:5.2vw;
+    text-align: left;
+    color:white;
+    line-height: 2.3vw;
+}
+
+.flink
+{
+    color: white;
+    font-family: "Jost";
+    text-decoration: none;
+    padding-right: 4px;
+     border-bottom: 4px solid transparent;
+    font-size: 1.3vw;
+}
+
+.flink:hover
+{
+    text-decoration: none;
+    color: white;
+    border-bottom: 4px solid #1dd6de;
+    transition:1s;
+}
+
+.foot .col2
+{
+   
+    position: absolute;
+    top:5.2vw;
+    text-align: left;
+    color:white;
+    line-height: 2.3vw;
+      left:45vw;
+}
+
+.foot .col3
+{
+    position: absolute;
+    left:63vw;
+    top:5.2vw;
+    text-align: left;
+    color:white;
+    line-height: 2.3vw;
+}
+
+.foot .col4
+{
+    position: absolute;
+    left:81vw;
+    top:5.2vw;
+    text-align: left;
+    color:white;
+    line-height: 2.3vw;
+}
+
+.foot_title
+{
+    font-size: 1.45vw;
+}
+
+.foot .col2 .img7a, .img7b, .img7c, .img7d
+{
+    position:absolute;
+    margin-top:0.65vw;
+    left:14vw;
+}
+
+.sub
+{
+    margin-top: 29vw;
+    margin-left: 7vw;
+    position: absolute;
+    font-family: "Jost";
+     color: white;
+    font-size: 1.3vw;
+    width:9vw;
+    line-height: 2vw; 
+}
+
+.sub1
+{
+    margin-top: 29.5vw;
+    margin-left: 47vw;
+    position: absolute;
+    font-family: "Jost";
+     color: white;
+    font-size: 1.3vw;
+    width:9vw;
+    line-height: 2vw; 
+}
+
+.s0
+{
+    background: black;
+    color: white;
+   
+}
+
+.sr1
+{
+    border: 0.1vw solid white;
+    background: black;
+    border-radius: 0;
+    color: white;
+    width:12vw;
+    height: 3.5vw;
+    font-size: 1.2vw;
+
+}
+
+ #s4
+{
+        text-decoration: none;
+    font-family: "Jost";
+    font-size: 1.2vw;
+}
+
+.sr1:hover, .sr1:active
+{
+    background: white;
+    color: black;
+}
+
+.s1, .s2, .s3
+{
+    color: white;
+    line-height: 1.5vw;
+    font-size: 1.1vw;
+    
+}
+
+.s1:hover, .s2:hover, .s3:hover
+{
+    color: white;
+    cursor: pointer;
+    background: black;
+}
+
+.form1
+{
+    position: absolute;
+    margin-top: -4vw;
+    margin-left: 57vw;
+    font-family: "Jost";
+}
+
+ input[type=text]  {
+     position: absolute;
+     margin-top: 29vw;
+     margin-left: -41vw;
+  width: 20vw;
+  padding: 0.6vw 1.2vw;
+  display: inline-block;
+  border: none;
+   /*border-top-left-radius: 1vw;
+  border-bottom-left-radius:1vw;*/
+  box-sizing: border-box;
+  background: white;
+  color: black;  
+    font-size: 1.4vw;
+    font-family: "Jost";
+     height: 3.7vw;
+
+}
+
+
+input[type=submit] {
+    position: absolute;
+     margin-top: 29vw;
+    margin-left: -21vw;
+  width: 4vw;
+  background-color:black;
+  color: white;
+  padding: 0.6vw 1vw 0.6vw 1.2vw;
+    height: 3.7vw;
+  border: 1px solid white;  
+ /* border-top-right-radius: 1vw;
+  border-bottom-right-radius: 1vw;*/
+  cursor: pointer;
+  position:relative;
+  font-size: 2.8vw;
+  font-family: "Josefin Sans";
+    text-align: left;
+}
+
+::placeholder {
+  color: grey;
+    font-family: "Jost";
+    font-size: 1.2vw;
+}
+
+.copyr
+{
+    margin-top: 37vw;
+    margin-left: 31vw;
+    font-family: "Jost";
+    color: #6b6a6a;
+    position: absolute;
+    opacity: 1;
+    font-size: 1.1vw;
+}
+.copyr1
+{
+    margin-top: 39vw;
+    margin-left: 36.5vw;
+    font-family: "Jost";
+    color: #6b6a6a;
+    position: absolute;
+    opacity: 1;
+    font-size: 1.05vw;
+}
+
+.flink2
+{
+    text-decoration: none;
+    
+     color: #6b6a6a;
+}
+
+.flink2:hover
+{
+    text-decoration: none;
+   color: #6b6a6a;
+}
+ 
+.card1, .card2, .card3, .card4, .card5
+{
+    position: absolute;
+    margin-top:-4vw;
+    width:3.2vw;
+    height:3.2vw;
+    background: transparent;
+}
+
+.line
+{
+    position: absolute;
+    width:85vw;
+    margin-left: -41vw;
+    margin-top: -7.5vw;
+    opacity: 0.5;
+}
+
+.popup
+{
+    margin-left: -22.5vw;
+    position: absolute;
+    margin-top: 0.7vw;
+    display: inline-block;
+    user-select: none;
+    width: 16vw;
+  }
+  
+.close
+{
+    position: absolute;
+    cursor: pointer;
+    margin-top: -2.3vw;
+    margin-left: 5.8vw;
+    font-size: 1.8vw;
+    color: black;
+    border-radius: 10vw;
+    padding-bottom: 0.12vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+  
+  .popup .popuptext
+{
+   margin-left: 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 0.5vw;
+    padding: 0.30vw 2vw 0.30vw 0.9vw;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.2vw;
+    font-family: "Jost";
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after
+   {
+    content: "";
+    margin-top: -1.8vw;
+    margin-left: -3.5vw;
+    position: absolute;
+    border-width: 1vw;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+  }
+
+.card1
+{ margin-left:74vw;}
+
+.card2
+{ margin-left:78vw; }
+
+.card3
+{ margin-left:82vw; }
+
+.card4
+{ margin-left:86vw; }
+
+.card5
+{ margin-left:90vw; }
+
+.fb
+{ position: absolute;
+    width: 2.5vw;
+    margin-left: -1.2vw; 
+    opacity: 0.6;
+    margin-top: 0.3vw; }
+
+.fb1
+{ position: absolute;
+    margin-left: -1.2vw;
+    width: 2.5vw;
+    margin-top: 0.3vw;
+    display: none; }
+
+.yt
+{ position: absolute;
+    width: 2.5vw;
+    margin-left: -1.2vw; 
+    opacity: 0.6;
+    margin-top: 0.3vw; }
+
+.yt1
+{ position: absolute;
+    margin-left: -1.2vw;
+    width: 2.5vw;
+    margin-top: 0.3vw;
+    display: none; }
+
+.ig
+{ position: absolute;
+    width: 2.5vw;
+    margin-left: -1.2vw; 
+    opacity: 0.6;
+    margin-top: 0.3vw; }
+
+#popp
+{
+    text-decoration: none;
+}
+
+.ig1
+{ position: absolute;
+    margin-left: -1.2vw;
+    width: 2.5vw;
+    margin-top: 0.3vw;
+    display: none; }
+
+.pin
+{ position: absolute;
+    width: 2.5vw;
+    margin-left: -1.2vw; 
+    opacity: 0.6;
+    margin-top: 0.3vw; }
+
+.pin1
+{ position: absolute;
+    margin-left: -1.2vw;
+    width: 2.5vw;
+    margin-top: 0.3vw;
+    display: none; }
+
+.tw
+{ position: absolute;
+    width: 2.5vw;
+    margin-left: -1.2vw; 
+    opacity: 0.6;
+    margin-top: 0.3vw; }
+
+.tw1
+{ position: absolute;
+    margin-left: -1.2vw;
+    width: 2.5vw;
+    margin-top: 0.3vw;
+    display: none; 
+}
+
+.card1:hover .fb1
+{ display: inline;
+}
+
+.card2:hover .yt1
+{ display: inline; }
+
+.card3:hover .ig1
+{ display: inline; }
+
+.card4:hover .pin1
+{ display: inline; }
+
+.card5:hover .tw1
+{ display: inline;}
+
+
+
+/* CART STYLING STARTS*/
+.m
+{
+    margin-top: -0.1vw;
+    width:27vw;
+    border-top-right-radius:0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius:0vw;
+    border-bottom-left-radius: 1.2vw;
+    margin-right:0.0vw;
+    height: 40vw;
+    overflow-y: scroll;
+    background: white;
+    border-bottom: 1px solid rgb(185, 184, 184);
+    border-left: 1px solid rgb(185, 184, 184);
+   
+
+   
+}
+
+.item-counter2
+{
+    position: absolute;
+    margin-left: 3.2vw;
+    margin-top: 1vw;
+    color: #6db374;
+    background:white ;
+    width: 2vw;
+    text-align: center;
+    font-size: 1.2vw;
+    border-radius: 20vw;
+}
+
+.tot
+{
+    position: absolute;
+    color: white;
+    margin-left:13vw;
+    margin-top: 1.5vw;
+}
+
+.sdiv
+{
+    height: 7vw;
+    background: white;
+}
+
+.bottom
+{
+    height: 4.5vw;
+}
+
+.a:hover .bottom
+{
+    background: white;
+}
+
+
+.shead
+{
+    margin-top: -1vw;
+    font-family: "Jost";
+    font-size: 1.5vw;
+    background: #7ac481;
+    color: darkslategrey;
+    text-align: right;
+    height: 6vw;
+    border: none;
+    margin-bottom: 1.2vw;
+}
+
+.a:hover .shead
+{
+    color: darkslategrey;
+    background: #7ac481;
+}
+
+.simg
+{
+    position: absolute;
+    width: 7vw;
+    margin-left: -1vw;
+    margin-top: -0.5vw;
+}
+
+.pname, .pprice, .pquan
+{
+    position: absolute;
+}
+
+.pname
+{
+    font-family: "Jost";
+    margin-left: 8vw;
+    font-size: 1.3vw;
+    margin-top: 0vw;
+     color: black;
+}
+
+.pprice
+{
+    font-family: "Overpass";
+    font-size: 1.4vw;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    color: teal;
+}
+
+.pquan
+{
+    font-family: "Jost";
+    margin-left: 8vw;
+    margin-top: 4.5vw;
+    font-size: 1.3vw;
+     color: black;
+}
+
+.quan
+{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: rgb(38, 112, 70);
+    font-weight: 600;
+}
+
+.real_total
+{
+    text-decoration: none;
+     color: white;
+     font-size: 1.7vw; 
+}
+
+
+
+.chk
+{
+    position: absolute;
+    margin-left: 0vw;
+    border-radius: 0;
+    background: #66aa6d;
+    font-family: "Jost";
+    color: white;
+    border:none;
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+    width: 22vw;
+    height: 3.5vw;
+    font-size: 1.5vw;
+    border-radius: 0.5vw;
+    text-align: center;
+}
+
+.chk:hover
+{
+    border: none;
+    background: #518656;
+}
+
+.cart_icon
+{
+    width: 3vw;
+    position: absolute;
+    margin-left: -23vw;
+    margin-top: 1.5vw;
+}
+
+.item-counter
+{
+    position: absolute;
+    font-family: "Sen";
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    margin-top: -2vw;
+}
+
+.a:hover .item-counter
+{
+    color: black;
+}
+
+.a:hover .sdiv
+{
+    background: white;
+}
+
+
+
+/* CART STYLING ENDS */
+
+.scart, .scart1
+{
+    width:2.5vw;
+    margin-right: 2vw;
+}
+
+
+.a:hover .scart1
+{
+    border-bottom: none;
+}
+
+.scart1
+{
+    display: none
+}
+
+.a:hover .scart1
+{
+    display: block;
+    cursor: pointer;
+    /*margin-left: -3vw;*/
+}
+
+.a:hover .scart
+{
+    display: none;
+}
+
+.solid .scart
+{
+    display: none;
+}
+
+.solid .scart1
+{
+    display: block;
+    cursor: pointer;
+}
+
+.fl0
+{
+    width: 3.2vw;
+}
+
+.fl1, .fl2, .fl3
+{
+    width: 2.8vw;
+    background: white;
+}
+
+.flagbt
+{
+    color: white;
+}
+
+.fl-cont
+{
+    width: 7vw;
+    background: white;
+}
+
+.a:hover .fl-cont
+{
+    background: white;
+}
+
+    .form01
+{
+    float: right;
+    margin-left: 36.5vw;
+    margin-top: 0.1vw;
+    width: 3vw;
+    cursor: pointer;
+}
+
+.a:hover .form01
+{
+    margin-top: 0.1vw;
+}
+
+.r5
+{
+    width: 3vw;
+    background:  transparent;
+    border: none;
+}
+
+.solid .form01
+{
+    margin-left: 39vw;
+}
+
+.del 
+{
+    position: absolute;
+    width: 1.9vw;
+    margin-left: 21.5vw;
+    margin-top: 2.5vw;
+    cursor: pointer;
+}
+
+.user1, .user2
+{
+    width: 2.2vw;
+    position: absolute;
+}
+
+.user2
+{
+    display: none;
+}
+
+.a:hover .user2
+{
+    display: block;
+    margin-left: 2vw;
+}
+
+.solid .user2
+{
+    display: block;
+    margin-left: 2vw;
+}
+
+.a:hover .user1
+{ display: none; }
+
+.solid .user1
+{ display: none; }
+
+#inner
+{
+    opacity: 0;
+    margin-top: 0vw;
+    background: white;
+    margin-left:-7.2vw;
+    float: left;
+    color: black;
+    text-align: center;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    border-radius: 0.4vw;
+    font-size: 1.3vw;
+    padding-top: 0.2vw;
+    padding-bottom: 0.2vw;
+}
+
+.fg input
+{
+    font-family: "Jost";
+    
+}
+
+.a:hover #inner
+{ margin-left: -5vw;  
+  background: black;
+    color: white;
+    margin-top: 0vw;
+}
+
+.solid #inner
+{ margin-left: -5vw;
+background: black;
+    color: white;
+    margin-top: 0vw;
+}
+
+
+.user-icon
+{
+    margin-left: 34vw;
+    position: absolute;
+    margin-top: -1vw;
+    cursor: pointer;
+}
+
+
+
+#em_error
+{
+    font-family: "Jost";
+}
+
+.mod_head
+{
+    background: black;
+    text-align: center;
+}
+
+.mod_title
+{
+    font-family: "Jost";
+    color: white;
+    text-align: center;
+}
+
+.mod_btn2, .mod_btn4
+{
+    
+   margin-left: 1vw;
+    background: black;
+    color: white;
+    font-family: "Jost";
+    border:none;
+    width: 8vw;
+}
+
+@media screen and (max-width: 1010px) {
+
+    body .dia 
+    {
+        width:29vw;
+        margin-left: 65vw;
+        margin-top: 5.6vw;
+    }
+
+  body .log_input
+{ 
+    height: 4vw;
+}
+
+body .log_input::placeholder
+{
+    font-size: 1.5vw;
+}
+
+body .mod_btn1, body .mod_btn3, body .mod_btn2, body .mod_btn4
+{
+   width: 10vw;
+}
+
+}
+
+.dia 
+{
+    border-radius: 0;
+    width: 23vw;
+    margin-left: 72vw;
+    margin-top: 5.6vw;
+   
+}
+
+.log_input
+{
+    height: 3vw;
+    font-family: "Jost";
+}
+
+.fg
+{
+    font-family:"Jost";
+}
+
+.mod_btn1, .mod_btn3
+{ 
+  
+  margin-left: 1.5vw;
+    background: #575655;
+    color: white;
+    font-family: "Jost";
+    border:none;
+    width: 8vw;
+   
+}
+
+
+.mod_btn2:hover, .mod_btn4:hover
+{
+    background: black;
+}
+
+.user_hov:hover
+{
+    border-bottom: 0.4vw solid black;
+}

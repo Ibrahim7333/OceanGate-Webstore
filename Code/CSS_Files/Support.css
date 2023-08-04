@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body
+{
+    background: white;
+}
+
+.navbar-custom .navbar-text,  .navbar-custom .navbar-nav .nav-link
+        {
+            color: black;
+        }
+
+        .ac
+        {
+            border-bottom: 0.4vw solid black;
+        }
+
+        .sp_header
+        {
+            font-size: 1.4vw;
+            font-weight: 800;
+            color: black;
+        }
+        
+        #inner
+        {
+            color: white;
+            background: black;
+        }       
+
+.cover_i
+{
+    width: 100vw;
+}
+
+
+.sp_title
+{
+    font-family: "Jost";
+    color: darkslategrey;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.sp_title_cont
+{
+    position: absolute;
+    margin-top: 15vw;
+    width: 100vw;
+    height: 5vw;
+}
+
+.con1
+{
+    background: white;
+    margin-top: 25vw;
+}
+
+.con2
+{
+    background: white;
+     margin-top: 25vw;
+}
+
+.con3
+{
+    background: white;
+     margin-top: 25vw;
+}
+
+.cd1, .cd2, .cd3
+{
+    margin-left: 2.2vw;
+    height: 35vw;
+}
+
+.cd1a, .cd2a, .cd3a
+{
+    margin-top: -0.5vw;
+    margin-left: 2.2vw;
+}
+
+.all_cards
+{
+    width: 27vw;
+}
+
+.cd3, .cd3a
+{
+    margin-left: 0vw;
+}
+
+.cd1, .cd1a
+{
+    margin-left: 4vw;
+}
+
+.cd1, .cd2, .cd3
+{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: none;
+    box-shadow: 0px 0px 8px #aaa;
+    padding-bottom: 1vw;
+    
+}
+
+.white-div
+{
+    height: 10vw;
+}
+
+.cd1a, .cd2a, .cd3a
+{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: none;
+    box-shadow: 0px 8px 8px #aaa;
+    height: 20vw;
+     border-top: 3px solid lightgrey;
+    padding-top: 0.5vw;
+}
+
+.caption_2a
+{
+    font-family: "Jost";
+    font-size: 1.3vw;
+}
+
+.caption_1a
+{
+    font-family: "Jost";
+    font-size: 1.6vw;
+}
+
+.info1, .info2, .info3
+{
+    font-size: 1.2vw;
+    color: rgb(90, 89, 89);
+}
+
+.btn_1a
+{
+    background: darkslategrey;
+    color: white;
+    font-family: "Jost";
+    border:none;
+    border-radius: 0.4vw;
+    width: 10vw;
+    margin-left: 7vw;
+    font-size: 1.3vw;
+}
+
+.btn_1a:hover
+{
+    background: black;
+}
+
+#email_error, #num_error, .info1, .info2, .info3, .view_map
+{
+    font-family: "Jost";
+}
+
+.view_map
+{
+    background: black;
+}
+
+.view_map:hover
+{
+    background: teal;
+}
+
+.popup1
+{
+    margin-left: -14vw;
+    margin-top: 4vw; 
+    position: absolute;
+    display: inline-block;
+    user-select: none;
+    width: 18.5vw;
+  }
+  
+.close1
+{
+    position: absolute;
+    cursor: pointer;
+    margin-top: -3vw;
+    margin-left: 15vw;
+    font-size: 2vw;
+    color: white;
+    border-radius: 10vw;
+    padding-bottom: 0.12vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+  
+  .popup1 .popuptext1
+{
+   margin-left: 0;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    border-radius: 0.5vw;
+    padding: 0.45vw 2.3vw 0.45vw 1vw;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.3vw;
+    font-family: "Jost";
+    line-height: 1.8vw;
+  }
+  
+  /* Popup arrow */
+  .popup1 .popuptext1::after
+   {
+    content: "";
+    margin-top: -4vw;
+    margin-left: -6vw;
+    position: absolute;
+    border-width: 1vw;
+    border-style: solid;
+    border-color: transparent transparent steelblue transparent;
+  }
+
+.popup2
+{
+    margin-left: -14vw;
+    margin-top: 4vw; 
+    position: absolute;
+    display: inline-block;
+    user-select: none;
+    width: 18.5vw;
+  }
+  
+.close2
+{
+    position: absolute;
+    cursor: pointer;
+    margin-top: -3vw;
+    margin-left: 15vw;
+    font-size: 2vw;
+    color: white;
+    border-radius: 10vw;
+    padding-bottom: 0.12vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+  
+  .popup2 .popuptext2
+{
+   margin-left: 0;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    border-radius: 0.5vw;
+    padding: 0.45vw 2.3vw 0.45vw 1vw;
+    position: absolute;
+    z-index: 1;
+    font-size: 1.3vw;
+    font-family: "Jost";
+    line-height: 1.8vw;
+  }
+  
+  /* Popup arrow */
+  .popup2 .popuptext2::after
+   {
+    content: "";
+    margin-top: -4vw;
+    margin-left: -3vw;
+    position: absolute;
+    border-width: 1vw;
+    border-style: solid;
+    border-color: transparent transparent steelblue transparent;
+  }
+
+.submit_info1, .submit_info2, .view_map
+{
+    background: black;
+    color: white;
+    font-family: "Jost";
+    border: none;
+    width: 10vw;
+    margin-left: 7vw;
+    font-size: 1.3vw;
+}
+
+.btn-text
+{
+    color: white;
+    text-decoration: none;
+}
+
+.submit_info1:hover, .submit_info2:hover
+{
+    background: teal;
+}
+
+.main-title
+{
+    position: absolute;
+    font-family:"Jost";
+    font-size: 4.7vw;
+   margin-left: 42vw;
+   margin-top: 4vw;
+}
+
+.fmc, .fmc1
+{
+    height: 3.5vw;
+}
+
+@media screen and (max-width: 992px) {
+
+   body .cover_i
+   {
+       margin-top: 11vw;
+   }
+
+    body .ac
+    {
+        border-bottom: none;
+    }
+
+    body .a:hover .ac
+    {
+        border-bottom: none;
+    }
+    
+    body .all_cards
+    {
+        margin-left: 25vw;
+        width: 45vw;
+        height: 58vw;
+    }
+
+    body .info1, body .info2, body .info3
+    {
+        font-size: 2vw;
+    }
+
+    body .sp_header
+        {
+            font-size: 2.3vw;
+        }
+
+     body .caption_2a
+    {
+        font-size: 2vw;
+    }
+
+    body .caption_1a
+    {
+        font-size: 2.7vw;
+    }
+
+    body .fmc::placeholder, body .fmc1::placeholder
+    {
+        font-size: 1.8vw;
+    }
+
+    body .sp_title
+    {
+        font-size: 3.5vw;
+        margin-top: 4vw;
+    }
+
+    body .main-title
+    {
+        font-size: 5vw;
+        margin-top: 5vw;
+    }
+
+    body .con1
+    {
+        margin-top: 30vw;
+    }
+
+    body .con2
+    {
+        margin-top: 10vw;
+    }
+    
+    body .con3
+    {
+        margin-top: 10vw;
+    }
+
+    body .cd1a
+    {
+        height: 37vw;
+    }
+    
+     body .cd2a
+    {
+        height: 30vw;
+    }
+    
+     body .cd3a
+    {
+        height: 28vw;
+    }
+    
+    body .btn_1a
+    {
+        width: 20vw;
+        margin-left: 10vw;
+        font-size: 2vw;
+    }
+    
+    body .submit_info1
+    {
+        margin-left: 12vw;
+        font-size: 2.2vw;
+        width: 16vw;
+    }
+    
+     body .submit_info2
+    {
+        margin-left:12vw;
+        font-size: 2.2vw;
+        width: 16vw;
+    }
+    
+     body .view_map
+    {
+        margin-top: -1vw;
+        margin-left: 12vw;
+        font-size: 2.2vw;
+        width: 16vw;
+      
+    }
+
+    body .fmc, body .fmc1
+    {
+        height: 5vw;
+    }
+    
+    body .popup1
+    {
+        width: 20vw;
+        margin-left: -19vw;
+        margin-top: 6vw;
+    }
+    
+    body .popup1 .popuptext1
+    { font-size: 1.5vw; }
+    
+    body .popup1 .close1
+    {
+        margin-left: 16.5vw;
+        margin-top: -3vw;
+    }
+    
+     body .popup2
+    {
+        width: 20vw;
+        margin-left: -21vw;
+        margin-top: 6vw;
+    }
+    
+    body .popup2 .popuptext2
+    { font-size: 1.5vw; }
+    
+    body .popup2 .close2
+    {
+        margin-left: 16.5vw;
+        margin-top: -3vw;
+    }
+    
+}
+
